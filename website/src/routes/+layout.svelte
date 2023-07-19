@@ -2,7 +2,8 @@
 	import Header from './Header.svelte';
 	import './styles.css';
 	import github from '$lib/images/github.svg';
-	import instagram from '$lib/images/instagram.png';
+	import instagram from '$lib/images/instagram.svg';
+	import linkedin from '$lib/images/linkedin.svg';
 </script>
 
 <div class="app">
@@ -19,6 +20,9 @@
 		</a>
 		<a href="https://www.instagram.com/grafmaximilian/">
 			<img src={instagram} alt="Instagram" />
+		</a>
+		<a href="https://www.linkedin.com/in/maximilian-graf-8a8583197/">
+			<img src={linkedin} alt="LinkedIn" />
 		</a>
 		</div>
 	</footer>
